@@ -31,4 +31,5 @@
     - run `python manage.py migrate` to create database tables
     - run `python manage.py runserver`
     - open browser to http://localhost:8000/movies
-    
+    - to run all tests: `python manage.py test`
+    - to run unit tests only: `python manage.py test movies`
